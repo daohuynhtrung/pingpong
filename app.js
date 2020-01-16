@@ -3,9 +3,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var port = 3000;
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var helloRouter = require('./routes/helloworld');
 
 var app = express();
 
@@ -21,10 +23,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.get('/h', function(req, res) {
-    res.send('Hello world')
+app.use('/helloworld', helloRouter);
+app.get('/userinfo', function(req, res) {
+  res.status(200).json({
+    'username': 'trung',
+    'email': 'cuoisangtoichieu43@gmail.com',
+    'name': 'trung',
+    'gender': 22
+  });
 });
 
+// console log 
+app.listen(port, () => console.log(`App listening on port ${port}!`));
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(400));
