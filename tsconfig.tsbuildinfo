@@ -1294,7 +1294,7 @@
         "signature": "e728e9b59d691051c28c741c97db4c8dbf8f78fff917e6cb45d22713a7af95f0"
       },
       "./src/server.ts": {
-        "version": "a1ad35c3ed53cb8eda35ad5884f6baf5105fedeeb00a6219f250b0d6f4d7cff3",
+        "version": "0150c36435a0d6ff6b4d951fb9fa2f3b10dc9724508fda1cde9bd87caa655d37",
         "signature": "9f9840c7a44ead52f5c88b73a18ed53c2e116a084ba0ab9cec31b055db2a10c9"
       },
       "./src/index.ts": {
@@ -3644,6 +3644,7 @@
         "./node_modules/@types/express/index.d.ts",
         "./node_modules/p-event/index.d.ts",
         "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/path.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],

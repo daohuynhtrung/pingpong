@@ -3,6 +3,8 @@ import {ApplicationConfig} from '@loopback/core';
 import express from 'express';
 import pEvent from 'p-event';
 import * as http from 'http';
+import {Request, Response} from 'express';
+import path from 'path';
 
 export class ExpressServer {
   private app: express.Application;
