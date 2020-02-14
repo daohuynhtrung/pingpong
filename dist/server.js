@@ -10,19 +10,7 @@ class ExpressServer {
     constructor(options = {}) {
         this.app = express_1.default();
         this.lbApp = new application_1.PingpongApplication(options);
-        // this.app.use('/api', this.lbApp.requestHandler);
-        this.app.get('/trung', function (req, res) {
-            res.send('trung');
-        });
-        this.app.get('/zed', function (req, res) {
-            res.send('welcome back master');
-        });
-        // this.app.get('/', function(_req: Request, res: Response) {
-        //   res.sendFile(path.resolve('public/express.html'));
-        // });
-        this.app.get('/helloworld', function (req, res) {
-            res.send('Hello world ec ec!');
-        });
+        this.app.use('/api', this.lbApp.requestHandler);
     }
     async boot() {
         await this.lbApp.boot();
