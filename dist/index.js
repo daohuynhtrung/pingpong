@@ -15,7 +15,7 @@ async function main(options = {}) {
     const server = new server_1.ExpressServer(options);
     await server.boot();
     await server.start();
-    console.log('U r fucking at localhost:3000');
+    console.log('Ok, let\'s jump !!!');
 }
 exports.main = main;
 //# sourceMappingURL=index.js.map

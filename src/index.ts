@@ -18,5 +18,5 @@ export async function main(options: ApplicationConfig = {}) {
   const server = new ExpressServer(options);
   await server.boot();
   await server.start();
-  console.log('U r fucking at localhost:3000');
+  console.log('Ok, let\'s jump !!!');
 }
