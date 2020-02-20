@@ -11,6 +11,7 @@ class ExpressServer {
         this.app = express_1.default();
         this.lbApp = new application_1.PingpongApplication(options);
         this.app.use('/api', this.lbApp.requestHandler);
+        this.app.use(express_1.default.static('public'));
     }
     async boot() {
         await this.lbApp.boot();

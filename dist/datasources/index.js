@@ -4,4 +4,5 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./ds.datasource"));
+__export(require("./post.datasource"));
 //# sourceMappingURL=index.js.map

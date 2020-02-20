@@ -1,0 +1,22 @@
+{
+  "ids": {
+    "Post": 4
+  },
+  "models": {
+    "Post": {
+      "1": {
+        "id": 1,
+        "userId": 1,
+        "title": "ufnw",
+        "content": "raer"
+      },
+      "2": {
+        "id": 2,
+        "userId": 1,
+        "title": "ngon",
+        "content": "ngon com"
+      },
+      "3": "{\"userId\":1,\"title\":\"nothing\",\"content\":\"ec ec\",\"id\":3}"
+    }
+  }
+}

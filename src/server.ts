@@ -15,6 +15,7 @@ export class ExpressServer {
     this.app = express();
     this.lbApp = new PingpongApplication(options);
     this.app.use('/api', this.lbApp.requestHandler);
+    this.app.use(express.static('public'));
   }
 
   async boot() {

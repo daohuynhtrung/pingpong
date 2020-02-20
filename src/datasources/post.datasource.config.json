@@ -1,0 +1,6 @@
+{
+  "name": "post",
+  "connector": "memory",
+  "localStorage": "",
+  "file": "./data/post.json"
+}

@@ -1,11 +1,15 @@
 {
-    "ids": {
-        "Note": 3
-    },
-    "models": {
-        "Note": {
-            "1": "{\"title\":\"Things I need to buy\",\"content\":\"milk, cereal, and waffles\",\"id\":1}",
-            "2": "{\"title\":\"Great frameworks\",\"content\":\"LoopBack is a great framework\",\"id\":2}"
-        }
+  "ids": {
+    "Note": 4
+  },
+  "models": {
+    "Note": {
+      "1": {
+        "title": "Things I need to buy",
+        "content": "milk, cereal, and waffles",
+        "id": 1
+      },
+      "3": "{\"title\":\"nodejs test\",\"content\":\"node testing\",\"additionalProp1\":{},\"id\":3}"
     }
+  }
 }
