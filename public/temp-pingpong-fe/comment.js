@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("button").click(function() {
-        $.get("http://localhost:3000/api/posts", function(data) {
+        $.get("http://localhost:3001/api/posts", function(data) {
             for (let p = 0; p < data.length; p++) {
                 const element = data[p];
                 var template = `
