@@ -171,4 +171,11 @@ export class PostController {
   async deleteById(@param.path.number('id') id: number): Promise<void> {
     await this.postRepository.deleteById(id);
   }
+
+  // @get('/posts/', {
+
+  // })
+  // async findById(): Promise<void> {
+    
+  // }
 }

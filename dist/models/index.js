@@ -6,4 +6,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./comment.model"));
 __export(require("./note.model"));
 __export(require("./post.model"));
+__export(require("./user.model"));
 //# sourceMappingURL=index.js.map

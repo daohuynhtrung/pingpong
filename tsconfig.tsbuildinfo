@@ -1294,7 +1294,7 @@
         "signature": "e728e9b59d691051c28c741c97db4c8dbf8f78fff917e6cb45d22713a7af95f0"
       },
       "./src/server.ts": {
-        "version": "602b94693bf185b4de57af5e7bed4ddd1e8cce2c386f0ee31bcb58890719015f",
+        "version": "79c40bd02af6abc156af2bcadf191c1203bb0b14a481014a8bd2ba491c96a28e",
         "signature": "9f9840c7a44ead52f5c88b73a18ed53c2e116a084ba0ab9cec31b055db2a10c9"
       },
       "./src/index.ts": {
@@ -1409,9 +1409,13 @@
         "version": "b69fee851825ed8c695b1f568ce769a864b1ff4567bc91cd0a81a211d4d3048c",
         "signature": "5ea93399d866a1c067466ed92a31fb461ed7147ad45ab8ea9462a42e461da9cb"
       },
+      "./src/models/user.model.ts": {
+        "version": "f1d9bcc2aecd226a4b6c77f7c7344a56183078d1bfe57736c6d87c8c0c7877d5",
+        "signature": "23aec32fd401909720f2e67c0d469565bd2bb43fa8b2cd0c017f8a0a45089ad1"
+      },
       "./src/models/index.ts": {
-        "version": "9b2f3473d470c75528054bae095765c870d4c2807dd08c25c039d88187c615ba",
-        "signature": "9b2f3473d470c75528054bae095765c870d4c2807dd08c25c039d88187c615ba"
+        "version": "9792adf8684ce2a85298614010f9f3a94973169f07a6f298e5b549f90741d5bf",
+        "signature": "9792adf8684ce2a85298614010f9f3a94973169f07a6f298e5b549f90741d5bf"
       },
       "./src/datasources/ds.datasource.config.json": {
         "version": "0321d28ea2dcbebff1b9d0ba0ece348bf45360cab698d0d97f311599b84f54a8",
@@ -1429,9 +1433,17 @@
         "version": "42d26970e4cdcbd9af040e2b8f6d7e52dc2d64a81f039b87dab866299453fe94",
         "signature": "02ec9bb46d6d65d4ca87dd7cc3088dce1fef41ef35d7963221b07315d923c851"
       },
+      "./src/datasources/user.datasource.config.json": {
+        "version": "e5c0ed36ee67cf27c2d89cd1a34dda32e42d2af2999705e58e5ea6185252654a",
+        "signature": "d5e9d8910b49e3f5eaef7bc569f387a079e9c065f79a3c846a2bfea70f0454e1"
+      },
+      "./src/datasources/user.datasource.ts": {
+        "version": "217229a905253e6ffe146a3667c1f94437371bc6474a65321839abf655f5684d",
+        "signature": "c9ef8d7fae44e75781676024d16a8f2c7f05394a2f31ec6b0dd583d275e4db69"
+      },
       "./src/datasources/index.ts": {
-        "version": "19baf13f4538d5c71d9e16feaa6bca459727d1a816f84d7ca3bab027cad6b75c",
-        "signature": "19baf13f4538d5c71d9e16feaa6bca459727d1a816f84d7ca3bab027cad6b75c"
+        "version": "e9fd5ddb9b011e6980505dff4dedf8c5a8ef7086349d83fcee3a5a800fac71d8",
+        "signature": "e9fd5ddb9b011e6980505dff4dedf8c5a8ef7086349d83fcee3a5a800fac71d8"
       },
       "./src/repositories/note.repository.ts": {
         "version": "49a50517bb16b6f8c08357bb414e01330183518e28da3c671cc7a6c2cf10144c",
@@ -1441,21 +1453,29 @@
         "version": "534e361a2dbdf8bb7c78e7d67c7d0ca3a6ab0956b64f7d45f07d03a27c8f7e82",
         "signature": "01bad9cfa183b44588c09ec5ac81c30f6afe06e64048cb6ed9e4682f56daee29"
       },
+      "./src/repositories/user.repository.ts": {
+        "version": "5a34df9282660d4ea56329cc7e04d6c466b946250e0366b0b56b07ac63dda819",
+        "signature": "f40d73f83712bc698bf1ff556e2ca3966f99d78c5a6425b2f4caf0a3415576c7"
+      },
       "./src/repositories/index.ts": {
-        "version": "70fab31e045082829cdd6b6c3ee841299c79f4f2145d5d6acee28166e0b3c4ae",
-        "signature": "70fab31e045082829cdd6b6c3ee841299c79f4f2145d5d6acee28166e0b3c4ae"
+        "version": "9e7ffbd4b295aab9b673f66f245cb07d46af1eb351c7fae8651fa74a4d41705c",
+        "signature": "9e7ffbd4b295aab9b673f66f245cb07d46af1eb351c7fae8651fa74a4d41705c"
       },
       "./src/controllers/note.controller.ts": {
         "version": "89b5ca12437d322f80c01f1af0465a1ca72c2a5f97e424ac6582e47c2fda9bdb",
         "signature": "b170e4a682a3755260b7dabf1b63f8ac122a8d2ae1b32beb8268ad83bb082619"
       },
       "./src/controllers/post.controller.ts": {
-        "version": "1f97f139bbf5e6d54a40ef0d1258708a713990ca1c459a194bc8d0bd52a5bccf",
+        "version": "dd26abb0423f499954059ebc33212eb12158eb8d26bf2f40245003c115bd033a",
         "signature": "3de4a10ec043b1e4e22c4ec650af28093a8e74c137afbea257d5d78219e0f723"
       },
+      "./src/controllers/user.controller.ts": {
+        "version": "e08b7e6165d0cbf9298111c488f0451d9ff9bd864f171a577f348eea55c3739c",
+        "signature": "ed44414424b735db552c9b00eff4c87045b746cd4a4a7224c14861c43d138d01"
+      },
       "./src/controllers/index.ts": {
-        "version": "f82aa02521f895d702c9e99ad1151210606573cc8e4c956a7221866d3ecbe62b",
-        "signature": "f82aa02521f895d702c9e99ad1151210606573cc8e4c956a7221866d3ecbe62b"
+        "version": "d8fe74c5c856d17bfec70a37ef9c8ecbdc9d16b171100c008e74fbe95731af57",
+        "signature": "d8fe74c5c856d17bfec70a37ef9c8ecbdc9d16b171100c008e74fbe95731af57"
       },
       "./node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
@@ -3834,10 +3854,16 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/models/user.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/models/index.ts": [
         "./src/models/comment.model.ts",
         "./src/models/note.model.ts",
         "./src/models/post.model.ts",
+        "./src/models/user.model.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3863,9 +3889,21 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/datasources/user.datasource.config.json": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/datasources/user.datasource.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/datasources/user.datasource.config.json",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/datasources/index.ts": [
         "./src/datasources/ds.datasource.ts",
         "./src/datasources/post.datasource.ts",
+        "./src/datasources/user.datasource.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3885,9 +3923,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/repositories/user.repository.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts",
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/repositories/index.ts": [
         "./src/repositories/note.repository.ts",
         "./src/repositories/post.repository.ts",
+        "./src/repositories/user.repository.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3907,10 +3954,19 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/controllers/user.controller.ts": [
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@loopback/rest/index.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/controllers/index.ts": [
         "./src/controllers/ping.controller.ts",
         "./src/controllers/note.controller.ts",
         "./src/controllers/post.controller.ts",
+        "./src/controllers/user.controller.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6231,10 +6287,14 @@
       "./src/models/post.model.ts": [
         "./node_modules/@loopback/repository/index.d.ts"
       ],
+      "./src/models/user.model.ts": [
+        "./node_modules/@loopback/repository/index.d.ts"
+      ],
       "./src/models/index.ts": [
         "./src/models/comment.model.ts",
         "./src/models/note.model.ts",
-        "./src/models/post.model.ts"
+        "./src/models/post.model.ts",
+        "./src/models/user.model.ts"
       ],
       "./src/datasources/ds.datasource.ts": [
         "./node_modules/@loopback/core/index.d.ts",
@@ -6244,9 +6304,14 @@
         "./node_modules/@loopback/core/index.d.ts",
         "./node_modules/@loopback/repository/index.d.ts"
       ],
+      "./src/datasources/user.datasource.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/repository/index.d.ts"
+      ],
       "./src/datasources/index.ts": [
         "./src/datasources/ds.datasource.ts",
-        "./src/datasources/post.datasource.ts"
+        "./src/datasources/post.datasource.ts",
+        "./src/datasources/user.datasource.ts"
       ],
       "./src/repositories/note.repository.ts": [
         "./src/datasources/index.ts",
@@ -6258,9 +6323,15 @@
         "./node_modules/@loopback/repository/index.d.ts",
         "./src/models/index.ts"
       ],
+      "./src/repositories/user.repository.ts": [
+        "./src/datasources/index.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
+      ],
       "./src/repositories/index.ts": [
         "./src/repositories/note.repository.ts",
-        "./src/repositories/post.repository.ts"
+        "./src/repositories/post.repository.ts",
+        "./src/repositories/user.repository.ts"
       ],
       "./src/controllers/note.controller.ts": [
         "./src/repositories/index.ts",
@@ -6275,7 +6346,8 @@
       "./src/controllers/index.ts": [
         "./src/controllers/ping.controller.ts",
         "./src/controllers/note.controller.ts",
-        "./src/controllers/post.controller.ts"
+        "./src/controllers/post.controller.ts",
+        "./src/controllers/user.controller.ts"
       ],
       "./node_modules/@types/color-name/index.d.ts": [
         "./node_modules/@types/node/util.d.ts",
@@ -6321,6 +6393,11 @@
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/controllers/user.controller.ts": [
+        "./src/repositories/index.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/models/index.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -6647,6 +6724,7 @@
       "./src/sequence.ts",
       "./src/application.ts",
       "./node_modules/p-event/index.d.ts",
+      "./src/server.ts",
       "./src/index.ts",
       "./src/migrate.ts",
       "./node_modules/@types/cookiejar/index.d.ts",
@@ -6675,18 +6753,21 @@
       "./src/models/comment.model.ts",
       "./src/models/note.model.ts",
       "./src/models/post.model.ts",
+      "./src/models/user.model.ts",
       "./src/models/index.ts",
       "./src/datasources/ds.datasource.config.json",
       "./src/datasources/ds.datasource.ts",
       "./src/datasources/post.datasource.config.json",
       "./src/datasources/post.datasource.ts",
+      "./src/datasources/user.datasource.config.json",
+      "./src/datasources/user.datasource.ts",
       "./src/datasources/index.ts",
       "./src/repositories/note.repository.ts",
       "./src/repositories/post.repository.ts",
+      "./src/repositories/user.repository.ts",
       "./src/repositories/index.ts",
       "./src/controllers/note.controller.ts",
       "./src/controllers/post.controller.ts",
-      "./src/controllers/index.ts",
       "./node_modules/@types/color-name/index.d.ts",
       "./node_modules/@types/debug/index.d.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
@@ -6696,7 +6777,8 @@
       "./node_modules/@types/mocha/index.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
       "./node_modules/@types/type-is/index.d.ts",
-      "./src/server.ts"
+      "./src/controllers/user.controller.ts",
+      "./src/controllers/index.ts"
     ]
   },
   "version": "3.7.5"
