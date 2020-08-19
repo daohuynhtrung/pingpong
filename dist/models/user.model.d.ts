@@ -1,7 +1,9 @@
 import { Entity } from '@loopback/repository';
 export declare class User extends Entity {
     id?: number;
-    name: string;
+    username: string;
+    password: string;
+    token: string;
     [prop: string]: any;
     constructor(data?: Partial<User>);
 }

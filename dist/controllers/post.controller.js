@@ -16,6 +16,7 @@ const repository_1 = require("@loopback/repository");
 const rest_1 = require("@loopback/rest");
 const models_1 = require("../models");
 const repositories_1 = require("../repositories");
+const authentication_1 = require("@loopback/authentication");
 let PostController = class PostController {
     constructor(postRepository) {
         this.postRepository = postRepository;
@@ -190,6 +191,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PostController.prototype, "deleteById", null);
 PostController = __decorate([
+    authentication_1.authenticate('jwt'),
     __param(0, repository_1.repository(repositories_1.PostRepository)),
     __metadata("design:paramtypes", [repositories_1.PostRepository])
 ], PostController);

@@ -14,24 +14,31 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const context_1 = require("@loopback/context");
 const rest_1 = require("@loopback/rest");
+const authentication_1 = require("@loopback/authentication");
 const SequenceActions = rest_1.RestBindings.SequenceActions;
 let MySequence = class MySequence {
-    constructor(findRoute, parseParams, invoke, send, reject) {
+    constructor(findRoute, parseParams, invoke, send, reject, authenticateRequest) {
         this.findRoute = findRoute;
         this.parseParams = parseParams;
         this.invoke = invoke;
         this.send = send;
         this.reject = reject;
+        this.authenticateRequest = authenticateRequest;
     }
     async handle(context) {
         try {
             const { request, response } = context;
             const route = this.findRoute(request);
+            await this.authenticateRequest(request);
             const args = await this.parseParams(request, route);
             const result = await this.invoke(route, args);
             this.send(response, result);
         }
         catch (err) {
+            if (err.code === authentication_1.AUTHENTICATION_STRATEGY_NOT_FOUND ||
+                err.code === authentication_1.USER_PROFILE_NOT_FOUND) {
+                Object.assign(err, { statusCode: 401 /* Unauthorized */ });
+            }
             this.reject(context, err);
         }
     }
@@ -42,7 +49,8 @@ MySequence = __decorate([
     __param(2, context_1.inject(SequenceActions.INVOKE_METHOD)),
     __param(3, context_1.inject(SequenceActions.SEND)),
     __param(4, context_1.inject(SequenceActions.REJECT)),
-    __metadata("design:paramtypes", [Function, Function, Function, Function, Function])
+    __param(5, context_1.inject(authentication_1.AuthenticationBindings.AUTH_ACTION)),
+    __metadata("design:paramtypes", [Function, Function, Function, Function, Function, Object])
 ], MySequence);
 exports.MySequence = MySequence;
 //# sourceMappingURL=sequence.js.map

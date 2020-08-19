@@ -19,7 +19,9 @@ import {
 } from '@loopback/rest';
 import {Post} from '../models';
 import {PostRepository} from '../repositories';
+import {authenticate} from '@loopback/authentication';
 
+@authenticate('jwt')
 export class PostController {
   constructor(
     @repository(PostRepository)

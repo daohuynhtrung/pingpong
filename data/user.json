@@ -1,17 +1,25 @@
 {
   "ids": {
-    "User": 4
+    "User": 5
   },
   "models": {
     "User": {
       "1": {
         "id": 1,
-        "name": "abc"
+        "username": "abc",
+        "password": 123123123
       },
       "2": {
         "id": 2,
-        "name": "xyz"
-      }
+        "username": "xyz",
+        "password": 321
+      },
+      "3": {
+        "id": 3,
+        "username": "hello",
+        "password": 432
+      },
+      "4": "{\"username\":\"test\",\"password\":\"trung1234\",\"additionalProp1\":{},\"id\":4}"
     }
   }
 }

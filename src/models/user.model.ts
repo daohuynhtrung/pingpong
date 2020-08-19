@@ -13,7 +13,20 @@ export class User extends Entity {
     type: 'string',
     required: true,
   })
-  name: string;
+  username: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  password: string;
+
+
+  @property({
+    type: 'string',
+    required: false,
+  })
+  token: string;
 
   // Define well-known properties here
 
